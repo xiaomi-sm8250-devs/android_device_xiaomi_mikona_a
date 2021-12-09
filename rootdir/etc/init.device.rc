@@ -1,0 +1,23 @@
+on property:ro.arch=cas
+    setprop vendor.lineage.fod.position_x 441
+    setprop vendor.lineage.fod.position_y 1808
+    setprop vendor.lineage.fod.size 195
+    setprop vendor.lineage.fod.enable true
+
+on property:ro.arch=cmi
+    setprop vendor.lineage.fod.position_x 441
+    setprop vendor.lineage.fod.position_y 1808
+    setprop vendor.lineage.fod.size 195
+    setprop vendor.lineage.fod.enable true
+
+on property:ro.arch=lmi
+    setprop vendor.lineage.fod.position_x 439
+    setprop vendor.lineage.fod.position_y 1655
+    setprop vendor.lineage.fod.size 202
+    setprop vendor.lineage.fod.enable true
+
+on property:ro.arch=umi
+    setprop vendor.lineage.fod.position_x 441
+    setprop vendor.lineage.fod.position_y 1808
+    setprop vendor.lineage.fod.size 195
+    setprop vendor.lineage.fod.enable true
