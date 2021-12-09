@@ -16,7 +16,7 @@ static const variant_info_t lmipro_info = {
     .sku_value = "pro",
 
     .brand = "Redmi",
-    .device = "lmipro",
+    .device = "lmi",
     .marketname = "",
     .model = "Redmi K30 Pro Zoom Edition",
     .build_fingerprint = "Redmi/lmipro/lmipro:11/RKQ1.200826.002/V12.5.3.0.RJKMIXM:user/release-keys",
