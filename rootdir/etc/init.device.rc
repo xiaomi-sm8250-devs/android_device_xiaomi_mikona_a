@@ -15,6 +15,7 @@ on property:ro.arch=lmi
     setprop vendor.lineage.fod.position_y 1655
     setprop vendor.lineage.fod.size 202
     setprop vendor.lineage.fod.enable true
+    setprop vendor.lineage.motor.enable true
 
 on property:ro.arch=umi
     setprop vendor.lineage.fod.position_x 441
