@@ -27,7 +27,11 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Audio configs
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/apollo/,$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_apollo) \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/cas/,$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cas) \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/cmi/,$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cmi) \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/lmi/,$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lmi) \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/umi/,$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_umi)
 
 # Permissions
 PRODUCT_COPY_FILES += \

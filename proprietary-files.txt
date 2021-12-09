@@ -119,19 +119,19 @@ vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|2a8bebab7997e5c84225f7429ed1cc91933aeaec
 
 # Audio hardware (apollo) - from apollo
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.apollo.so|8df92ac4896a6bfaec202bba013d49fc4fb6b513
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.apollo.so|8df92ac4896a6bfaec202bba013d49fc4fb6b513|0da5c9864d5980f3bc1423169bea3801693c2d64
 
 # Audio hardware (cas) - from cas
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.cas.so|aafb03b00c53a918cd113cb76c6e609c396ac33b
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.cas.so|aafb03b00c53a918cd113cb76c6e609c396ac33b|3be782d8641723fdd7744ef2bb4a0ab00b6a54c1
 
 # Audio hardware (cmi) - from cmi
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.cmi.so|f082e6ca8eb015d8d4119d8e578df0789c456f65
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.cmi.so|f082e6ca8eb015d8d4119d8e578df0789c456f65|2adfa93f5ba645005a41cd2ec292383d8c36f1c8
 
 # Audio hardware (lmi) - from lmi
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.lmi.so|5f7d633218370496d0d96dee6e229a6a65dc9787
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.lmi.so|5f7d633218370496d0d96dee6e229a6a65dc9787|cdba9133a07c044e3e748d5072787232f34d3baf
 
 # Audio hardware (umi) - from umi
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.umi.so|8e1994ee06a0238d189c9655d0ca3b538d91e72c
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.umi.so|8e1994ee06a0238d189c9655d0ca3b538d91e72c|b98c1a968fa13620088be2dceadf53434784da9f
 
 # Camera - from lmi
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so|a00fc20fa59c4f3abf1cf2f3e279f4392a07d10b

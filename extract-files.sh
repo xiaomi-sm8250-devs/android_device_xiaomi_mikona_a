@@ -8,6 +8,26 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib/hw/audio.primary.apollo.so)
+            sed -i 's|/vendor/etc/mixer_paths_overlay_dynamic.xml|/vendor/etc/audio/sku_apollo/mix_pa_dyn.xml|g' "${2}"
+            sed -i 's|/vendor/etc/mixer_paths_overlay_static.xml|/vendor/etc/audio/sku_apollo/mix_pa_st.xml|g' "${2}"
+            ;;
+        vendor/lib/hw/audio.primary.cas.so)
+            sed -i 's|/vendor/etc/mixer_paths_overlay_dynamic.xml|/vendor/etc/audio/sku_cas/mix_pa_dyn.xml\x0\x0\x0|g' "${2}"
+            sed -i 's|/vendor/etc/mixer_paths_overlay_static.xml|/vendor/etc/audio/sku_cas/mix_pa_st.xml\x0\x0\x0|g' "${2}"
+            ;;
+        vendor/lib/hw/audio.primary.cmi.so)
+            sed -i 's|/vendor/etc/mixer_paths_overlay_dynamic.xml|/vendor/etc/audio/sku_cmi/mix_pa_dyn.xml\x0\x0\x0|g' "${2}"
+            sed -i 's|/vendor/etc/mixer_paths_overlay_static.xml|/vendor/etc/audio/sku_cmi/mix_pa_st.xml\x0\x0\x0|g' "${2}"
+            ;;
+        vendor/lib/hw/audio.primary.lmi.so)
+            sed -i 's|/vendor/etc/mixer_paths_overlay_dynamic.xml|/vendor/etc/audio/sku_lmi/mix_pa_dyn.xml\x0\x0\x0|g' "${2}"
+            sed -i 's|/vendor/etc/mixer_paths_overlay_static.xml|/vendor/etc/audio/sku_lmi/mix_pa_st.xml\x0\x0\x0|g' "${2}"
+            ;;
+        vendor/lib/hw/audio.primary.umi.so)
+            sed -i 's|/vendor/etc/mixer_paths_overlay_dynamic.xml|/vendor/etc/audio/sku_umi/mix_pa_dyn.xml\x0\x0\x0|g' "${2}"
+            sed -i 's|/vendor/etc/mixer_paths_overlay_static.xml|/vendor/etc/audio/sku_umi/mix_pa_st.xml\x0\x0\x0|g' "${2}"
+            ;;
         vendor/lib64/hw/fingerprint.goodix_fod.cas.so|vendor/lib64/libgf_cas.so)
             sed -i 's|libgf_hal.so|libgf_cas.so|g' "${2}"
             sed -i 's|/dev/goodix_fp|/dev/gx_fod_fp|g' "${2}"
